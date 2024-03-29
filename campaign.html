@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign</title>
+    <link rel="stylesheet" href="campaign.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Campaign</h1>
+        <form>
+          <label for="campaign-name">Campaign Name:</label>
+          <input type="text" id="campaign-name" name="campaign-name" required>
+          <label for="campaign-description">Campaign Description:</label>
+          <textarea id="campaign-description" name="campaign-description" required></textarea>
+          <label for="min-contribution">Minimum Contribution Amount:</label>
+          <input type="number" id="min-contribution" name="min-contribution" placeholder="ETH" required>
+          <label for="target-amount">Target Amount:</label>
+          <input type="number" id="target-amount" name="target-amount" placeholder="ETH"required>
+          <label for="image-url">Image URL:</label>
+          <input type="url" id="image-url" name="image-url" required>
+          <button type="submit" class="btn-create">Create</button>
+          <button type="button" class="btn-back">Back</button>
+        </form>
+      </div>
+      <script src="campaign.js"></script>
+</body>
+</html>
+  
