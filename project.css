@@ -35,7 +35,7 @@
   }
 
   .background {
-    background-image: url('/image\ cover\ 2.jpg');
+    background-image: url('image cover 2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -108,7 +108,7 @@
   }
 
   .col-img {
-    background-image: url('/feature-img.jpg');
+    background-image: url('feature-img.jpg');
     background-position: center;
     background-size: cover;
     min-height: 500px;
